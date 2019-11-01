@@ -38,7 +38,5 @@ int	main(int argc, char const *argv[]) {
 		printf("%s\n ^Return of this line (#%d) was: %d\n", line, i++, status);
 		free(line);
 	}
-	if (status == 0)
-		printf("-----------\nEnd of files\n");
 	return (argc);
 }
