@@ -27,7 +27,7 @@ int	main(int argc, char const *argv[]) {
 	i = 1;
 	while ((status = get_next_line(fd, &line)) == 1 && i < 500)
 	{
-		printf("[%d] %s\n", i++, line);
+		printf("%s\n ^Return of this line (#%d) was: %d\n", line, i++, status);
 		free(line);
 	}
 	fd_2 = open(argv[2], O_RDONLY);
