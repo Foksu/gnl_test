@@ -35,7 +35,7 @@ int	main(int argc, char const *argv[]) {
 	fd = fd_2;
 	while ((status = get_next_line(fd, &line)) == 1)
 	{
-		printf("[%d] %s\n", i++, line);
+		printf("%s\n ^Return of this line (#%d) was: %d\n", line, i++, status);
 		free(line);
 	}
 	return (argc);
