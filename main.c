@@ -6,11 +6,13 @@
 /*   By: vvaltone <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/01 17:20:13 by vvaltone          #+#    #+#             */
-/*   Updated: 2019/11/01 17:20:16 by vvaltone         ###   ########.fr       */
+/*   Updated: 2019/11/24 12:15:16 by vvaltone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 #include <fcntl.h>
 #include <sys/uio.h>
 #include <sys/types.h>
